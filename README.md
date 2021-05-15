@@ -1,3 +1,4 @@
+# BetterDiscord-Animated-Status
 Open Discord, go to Settings>Plugins, enable AnimatedStatus and click on Settings.
 Enter the required information into the input fields and click save
 The value specifies the length of each animation step in milliseconds. Example: With a timeout of 2000, the following animation would take 4 seconds to complete
@@ -20,5 +21,4 @@ Have the current time as your status:
 ![image](https://user-images.githubusercontent.com/81039439/118372436-7ad7de00-b5a9-11eb-9902-21ae022edfe4.png)
 
 
-# BetterDiscord-Animated-Status
 "eval let fmt=t=>(t&lt;10?'0':'')+t;let d=new Date();`${fmt(d.getHours())}:${fmt(d.getMinutes())}:${fmt(d.getSeconds())}`;", "eval ['🕛','🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘','🕙','🕚'][((new Date()).getHours()%12)];"
