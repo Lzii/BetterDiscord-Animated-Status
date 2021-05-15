@@ -21,7 +21,7 @@ Logically, the animation timeout should be at least 2900, at best 10000 millisec
 
 Have the current time as your status:
 
-![image](https://user-images.githubusercontent.com/81039439/118372436-7ad7de00-b5a9-11eb-9902-21ae022edfe4.png)
+![image](https://user-images.githubusercontent.com/81039439/118372461-aa86e600-b5a9-11eb-8ad4-2062cee8f22b.png)
 
 
 "eval let fmt=t=>(t&lt;10?'0':'')+t;let d=new Date();`${fmt(d.getHours())}:${fmt(d.getMinutes())}:${fmt(d.getSeconds())}`;", "eval ['🕛','🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘','🕙','🕚'][((new Date()).getHours()%12)];"
